@@ -8,7 +8,7 @@ def rectangle(width, height):
 def circle(radius):
     return 3.14 * radius ** 2
 
-# Function for menu
+# Function for the menu
 def options():
     print("Options:")
     print("s = calculate the area of a square.")
@@ -16,8 +16,10 @@ def options():
     print("r = calculate the area of a rectangle.")
     print("q = quit")
     
-# Get input from user and calculate chosen shape
+# Print the message to let the user know what this program can do
 print("This program will calculate the area of a square, circle or rectangle.")
+
+# Get input from user and calculate chosen shape
 choice = "x"
 options()
 while choice != "q":
